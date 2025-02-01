@@ -1162,6 +1162,12 @@ importers:
       '@ai-sdk/provider-utils':
         specifier: 2.1.6
         version: link:../provider-utils
+      '@smithy/eventstream-codec':
+        specifier: ^4.0.1
+        version: 4.0.1
+      '@smithy/util-utf8':
+        specifier: ^4.0.0
+        version: 4.0.0
       aws4fetch:
         specifier: ^1.0.20
         version: 1.0.20
@@ -12895,7 +12901,6 @@ snapshots:
       '@aws-crypto/util': 5.2.0
       '@aws-sdk/types': 3.734.0
       tslib: 2.8.1
-    optional: true
 
   '@aws-crypto/sha256-browser@5.2.0':
     dependencies:
@@ -12925,7 +12930,6 @@ snapshots:
       '@aws-sdk/types': 3.734.0
       '@smithy/util-utf8': 2.3.0
       tslib: 2.8.1
-    optional: true
 
   '@aws-sdk/client-bedrock-runtime@3.738.0':
     dependencies:
@@ -13237,7 +13241,6 @@ snapshots:
     dependencies:
       '@smithy/types': 4.1.0
       tslib: 2.8.1
-    optional: true
 
   '@aws-sdk/util-endpoints@3.734.0':
     dependencies:
@@ -16677,7 +16680,6 @@ snapshots:
       '@smithy/types': 4.1.0
       '@smithy/util-hex-encoding': 4.0.0
       tslib: 2.8.1
-    optional: true
 
   '@smithy/eventstream-serde-browser@4.0.1':
     dependencies:
@@ -16732,12 +16734,10 @@ snapshots:
   '@smithy/is-array-buffer@2.2.0':
     dependencies:
       tslib: 2.8.1
-    optional: true
 
   '@smithy/is-array-buffer@4.0.0':
     dependencies:
       tslib: 2.8.1
-    optional: true
 
   '@smithy/middleware-content-length@4.0.1':
     dependencies:
@@ -16862,7 +16862,6 @@ snapshots:
   '@smithy/types@4.1.0':
     dependencies:
       tslib: 2.8.1
-    optional: true
 
   '@smithy/url-parser@4.0.1':
     dependencies:
@@ -16892,13 +16891,11 @@ snapshots:
     dependencies:
       '@smithy/is-array-buffer': 2.2.0
       tslib: 2.8.1
-    optional: true
 
   '@smithy/util-buffer-from@4.0.0':
     dependencies:
       '@smithy/is-array-buffer': 4.0.0
       tslib: 2.8.1
-    optional: true
 
   '@smithy/util-config-provider@4.0.0':
     dependencies:
@@ -16935,7 +16932,6 @@ snapshots:
   '@smithy/util-hex-encoding@4.0.0':
     dependencies:
       tslib: 2.8.1
-    optional: true
 
   '@smithy/util-middleware@4.0.1':
     dependencies:
@@ -16971,13 +16967,11 @@ snapshots:
     dependencies:
       '@smithy/util-buffer-from': 2.2.0
       tslib: 2.8.1
-    optional: true
 
   '@smithy/util-utf8@4.0.0':
     dependencies:
       '@smithy/util-buffer-from': 4.0.0
       tslib: 2.8.1
-    optional: true
 
   '@solid-primitives/trigger@1.2.0(solid-js@1.9.4)':
     dependencies:
